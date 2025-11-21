@@ -22,7 +22,7 @@ function NavBarV1(): ReactNode {
             <div className="flex flex-row w-full max-w-5xl justify-between mx-auto px-4">
                 <a href="#home">
                     <div className="cursor-pointer" onClick={closeMenu}>
-                        <p className="font-bold font-sans text-2xl">Khoa (Brad) Vu</p>
+                        <p className="font-bold font-sans text-2xl oswald-700">Khoa (Brad) Vu</p>
                     </div>
                 </a>
                 <div className="hidden sm:block">
