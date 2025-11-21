@@ -11,7 +11,7 @@ export function PortfolioV1(): ReactNode {
     return(
         <div className="flex flex-col justify-center snap-mandatory snap-y scroll-pt-14 w-full *:max-sm:px-4">
             <div className="h-14" id="home"></div>
-            <div className="snap-start bg-[url(./bg_tile.png)] bg-center bg-repeat w-svw max-sm:pt-4 h-[calc(100svh-72px)]">
+            <div className="snap-start bg-[url(/bg_tile.png)] bg-center bg-repeat w-svw max-sm:pt-4 h-[calc(100svh-72px)]">
                 <Home/>
             </div>
             <div className="h-14" id="about"></div>
@@ -19,7 +19,7 @@ export function PortfolioV1(): ReactNode {
                 <About/>
             </div>
             <div id="experiences" className="h-14"></div>
-            <div className="snap-start bg-[url(./bg_tile.png)] bg-top-left bg-repeat w-svw max-sm:pt-4 min-h-svh flex">
+            <div className="snap-start bg-[url(/bg_tile.png)] bg-top-left bg-repeat w-svw max-sm:pt-4 min-h-svh flex">
                 <Experience/>
             </div>
             <div id="educations" className="h-14"></div>
@@ -27,7 +27,7 @@ export function PortfolioV1(): ReactNode {
                 <Educations/>
             </div>
             <div id="volunteers" className="h-14"></div>
-            <div className="snap-start bg-[url(./bg_tile.png)] bg-top-left bg-repeat w-svw max-sm:pt-4 h-fit flex">
+            <div className="snap-start bg-[url(/bg_tile.png)] bg-top-left bg-repeat w-svw max-sm:pt-4 h-fit flex">
                 <Volunteers/>
             </div>
             <div id="expertise" className="h-14"></div>
@@ -35,7 +35,7 @@ export function PortfolioV1(): ReactNode {
                 <Expertise/>
             </div>
             <div id="connect" className="h-14"></div>
-            <div className="snap-start bg-[url(./bg_tile.png)] bg-top-left bg-repeat w-svw max-sm:pt-4 h-fit flex">
+            <div className="snap-start bg-[url(/bg_tile.png)] bg-top-left bg-repeat w-svw max-sm:pt-4 h-fit flex">
                 <Connect/>
             </div>
         </div>
