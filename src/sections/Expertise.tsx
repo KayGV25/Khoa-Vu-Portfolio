@@ -24,7 +24,7 @@ export function Expertise(): ReactNode {
             <div className="w-full max-sm:w-full sm:h-full sm:relative">
                 <div className="sm:absolute sm:bottom-0 sm:left-0 w-full h-full">
                     <div className="flex flex-col gap-6 justify-center h-full max-sm:px-4">
-                        <h1 className="text-6xl">Educations</h1>
+                        <h1 className="text-6xl">Expertise</h1>
                         <ExpertiseList contents={expertises}/>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ export function Educations(): ReactNode {
                     </div>
                 </div>
             </div>
-            <img src="./Bedfordshire_logo.jpg" alt="avatar" className="max-h-full max-sm:w-full"/>
+            <img src="./Bedfordshire_logo.jpg" alt="avatar" className="max-h-full max-sm:w-full my-auto"/>
         </section>
     )
 }
